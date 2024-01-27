@@ -6,7 +6,6 @@ class Solution(object):
         """
         sol = 1
         sorted_ = sorted(nums)
-        i = 1
         for i in range(len(sorted_)):
             if sol == sorted_[i]:
                 sol = sol + 1
